@@ -1,0 +1,4 @@
+gunicorn -c gunicornconfig.py swirly:webapp
+celery worker -A swirly -l info
+ab -n 10000 -c 100 -p postdata.txt -T 'application/x-www-form-urlencoded' http://sunflower:8080/payload 
+httperf --wsesslog=5000,0,httperfpostdata.txt --method=POST --add-header="Content-Type: application/x-www-form-urlencoded\n"  --server=sunflower --port=8080 --uri=/payload --hog

@@ -1,0 +1,1 @@
+payload=%5B%7Bcolor%3A%22red%22%2Cvalue%3A%22%23f00%22%7D%2C%7Bcolor%3A%22green%22%2Cvalue%3A%22%230f0%22%7D%2C%7Bcolor%3A%22blue%22%2Cvalue%3A%22%2300f%22%7D%2C%7Bcolor%3A%22cyan%22%2Cvalue%3A%22%230ff%22%7D%2C%7Bcolor%3A%22magenta%22%2Cvalue%3A%22%23f0f%22%7D%2C%7Bcolor%3A%22yellow%22%2Cvalue%3A%22%23ff0%22%7D%2C%7Bcolor%3A%22black%22%2Cvalue%3A%22%23000%22%7D%5D%0A
