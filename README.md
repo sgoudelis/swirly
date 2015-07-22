@@ -2,6 +2,8 @@
 
 ## Demostration for non-blocking high-speed Web API with asynchronous job handling.
 
+This is work in progress. Incomplete code warning.
+
 A collection of python scripts that make up high-speed non-blocking HTTP API with asynchronous job handling.  
 
 ## Requirements
