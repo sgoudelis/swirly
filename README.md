@@ -1,8 +1,8 @@
 # swirly
 
-## Demostration for non-blocking high-speed Web API.
+## Demostration for non-blocking high-speed Web API with asynchronous job handling.
 
-A collection of python scripts that make up high-speed non-blocking HTTP API.  
+A collection of python scripts that make up high-speed non-blocking HTTP API with asynchronous job handling.  
 
 ## Requirements
 
@@ -44,8 +44,7 @@ $ gunicorn -c gunicornconfig.py swirly:webapp
 
 ```
 $ ab -n 10000 -c 100 -p postdata/postdata.txt -T 'application/x-www-form-urlencoded' http://localhost:8080/payload 
-
-Benchmarking xxxxxx (be patient)
+Benchmarking sunflower (be patient)
 Completed 100 requests
 Completed 200 requests
 Completed 300 requests
