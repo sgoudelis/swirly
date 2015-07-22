@@ -14,11 +14,9 @@ def processPayload(payload):
     if payload:
         colors = json.loads(payload)
         numcolors = len(colors)
-        blackcolor = colors.get('black', None)
         numcolors = len(payload)
         result['success'] = True
         result['numberofcolors'] = numcolors
-        result['black'] = blackcolor
         
         return str(json.dumps(result))
     else:
