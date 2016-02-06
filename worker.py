@@ -4,10 +4,13 @@ from celery import Celery
 queue = Celery('swirly')
 queue.config_from_object('celeryconfig')
 
+
 @queue.task
 def processPayload(payload):
     """
     Worker implemention. Assume a list of colors
+    :param payload:
+    :return:
     """
     result = {'success': None, 'numberofcolors': None, 'black': None}
 
